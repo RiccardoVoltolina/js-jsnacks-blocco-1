@@ -10,7 +10,7 @@ for (let i = 0; i < 6; i++) {
     if (domanda % 2 !== 0) {
         arrayVuoto.push (domanda)
         console.log(arrayVuoto);
-        stampa.innerHTML(arrayVuoto)
+        stampa.innerHTML = arrayVuoto
     } else {
         console.log('pari');
     }
