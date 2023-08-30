@@ -46,9 +46,9 @@ while (i <= 2) {
 console.log(listaNumeri);
 
 if (listaNumeri[0] > listaNumeri [1]) {
-    console.log(listaNumeri[0]);
-} else if (listaNumeri[1] > listaNumeri [0]) {
     console.log('Il primo numero è il più grande ' + listaNumeri[1]);
-} else {
+} else if (listaNumeri[1] > listaNumeri [0]) {
     console.log('Il secondo numero è il più grande ' + listaNumeri[0]);
+} else {
+    console.log('I numeri scelti sono uguali' + listaNumeri[0]);
 }
